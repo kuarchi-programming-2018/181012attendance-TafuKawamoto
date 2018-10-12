@@ -4,6 +4,6 @@ def fib(n):
     a,b=0,1
     for i in range(n):
         a,b=b,a+b
-    return a
+    return b
 
-print(fib(2018))
+print([fib(i) for i in range(2018)])
